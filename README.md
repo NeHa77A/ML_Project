@@ -8,16 +8,16 @@
 
 Creating conda environment
 ```
-conda create -p myvenv python==3.10 -y
+conda create -p venv python==3.10 -y
 ```
 
 For activating the environment
 ```
-conda activate myvenv/
+conda activate venv/
 ```
 OR
 ```
-conda activate myvenv
+conda activate venv
 ```
 
 ```
