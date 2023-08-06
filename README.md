@@ -23,3 +23,14 @@ conda activate venv
 ```
 pip install -r requirements.txt
 ```
+
+Build Docker Image
+```
+docker build -t <image_name>:<tagname>
+```
+> Note : Image name for docker must be lowercase
+
+Run Docker image
+```
+docker run -p 5000:5000 -e PORT=5000 <image_name>
+```
