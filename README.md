@@ -34,3 +34,8 @@ Run Docker image
 ```
 docker run -p 5000:5000 -e PORT=5000 <image_name>
 ```
+
+it will install all the library in setup
+```
+python setup.py install
+```
