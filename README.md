@@ -39,3 +39,8 @@ it will install all the library in setup
 ```
 python setup.py install
 ```
+
+To Install ipykernel
+```
+pip install ipykernel
+```
