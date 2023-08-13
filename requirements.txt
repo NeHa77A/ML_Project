@@ -7,3 +7,4 @@ sklearn
 gunicorn
 -e .
 ipykernel
+PyYAML
